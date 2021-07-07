@@ -1,0 +1,25 @@
+.top-bar-nav-container{
+    border: 1px solid black;
+    background-color: #c32020;
+}
+.top-bar-nav-container ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+.top-bar-nav-container li{
+    list-style: none;
+    border: 1px solid rgb(255, 255, 255);
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding-top: 5px;
+    margin-right: 5px;
+
+}
+.top-bar-nav-container a{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}

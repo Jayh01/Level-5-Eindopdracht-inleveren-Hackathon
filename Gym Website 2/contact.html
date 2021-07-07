@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<title>Home-Page</title>
+		<meta name="robot" content="index,follow" />
+		<meta charset="UTF-8" />
+		<meta name="discription" content="Deze website gaat over sportschool" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+		<link rel="stylesheet" content="text/css" href="css/index.css" />
+		<link rel="stylesheet" content="text/css" href="css/contact.css" />
+		<link rel="stylesheet" content="text/css" href="css/about.css" />
+		<link rel="stylesheet" content="text/css" href="css/top-bar-nav.css" />
+	</head>
+	<body class="body-container">
+		<header>
+			<!--Top-bar navigatie-->
+			<nav class="top-bar-nav-container">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+			</nav>
+			<!--Einde Top-bar navigatie-->
+		</header>
+		<main>
+			<h1>Contact Gegevens</h1>
+			<h3>Voer hier onder uw gegevens in</h3>
+			<form class="contact-gegevens-container">				
+					<label class="contact-label">Naam:</label>
+					<input class="naam" type="text" name="Naam:[]" placeholder="Uw naam:" required>
+				
+					<label class="contact-label">Achternaam:</label>
+					<input class="achternaam" type="text" name="Achternaam:[]" placeholder="uw achternaam" required/>
+
+					<label class="contact-label">Geboorte Datum:</label>
+					<input class="geboorte-datum" type="date" name="Geboorte Datum:[]" required />
+
+					<label class="contact-label" >Straatnaam/Num:</label>
+					<input class="straatnaam-Num" type="text" name="Straatnaam/Num:[]" placeholder="Uw Straatnaam / Num"/>
+
+					<label class="contact-label">Postcode</label>
+					<input class="post-code" type="text" name="Post-Code" required placeholder="Uw Postcode"/>
+				
+					<label class="contact-label">Uw bericht</label>
+					<textarea class="textarea" placeholder="Type uw bericht hier"></textarea>
+
+				<div class="reset-verzenden-container">
+					<input class="contact-reset-knop" type="reset" />
+					<input class="contact-submit-knop" type="submit" />
+				</div>
+			</form>
+		</main>
+	</body>
+</html>

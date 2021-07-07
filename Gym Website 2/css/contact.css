@@ -1,0 +1,69 @@
+.contact-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+
+}
+.contact-gegevens-container{
+    margin: auto;
+    display: flex;
+    border: 1px solid rgb(236, 223, 223);
+    padding: 10px;
+    background-color: #c32020;
+    width: auto;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+/*-------------Contactgegevens Formulier----------*/
+.contact-label{
+    display: block;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.naam{
+    margin-top: 10px;
+    height: 30px;
+}
+
+.achternaam{
+    margin-top: 10px;
+    height: 30px;
+}
+
+.geboorte-datum{
+    margin-top: 10px;
+    height: 30px;
+}
+
+.straatnaam-Num{
+    margin-top: 10px;
+    height: 30px;
+}
+
+.post-code{
+    margin-top: 10px;
+    height: 30px;
+}
+
+.textarea{
+    margin-top: 10px;
+    height: 70px;
+}
+
+.reset-verzenden-container{
+    display: block;
+    height: 100px;
+}
+
+.contact-reset-knop{
+    margin-top: 20px;
+    height: 38px;
+}
+
+.contact-submit-knop{
+    margin-top: 20px;
+    height: 38px;
+}
+/*---------Einde Contactgegevens Formulier----------*/
